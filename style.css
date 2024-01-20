@@ -1,0 +1,63 @@
+
+
+#container {
+    border: solid;
+    width: 400px;
+    height: 600px;
+    background-color: #4c4c4c;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px; 
+    width: 100%;
+    height: 84.7%;
+
+
+    border-radius: 0;
+    
+}
+#B0 {
+    grid-column: 1 / span 2; 
+}
+.numbers {
+    background-color: #e3e3e3;
+    
+}
+
+.operand {
+    background-color: #f78e11;
+    color: white;
+}
+.topbuttons {
+    background-color: #d6d6d6;
+}
+
+button {
+    font-size: 32px;
+}
+#display {
+    color: white;
+    background-color: #4c4c4c;
+    border-width: 0;
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 60px;
+    text-align: right;
+
+    width: 100%;
+
+    height: 90px
+    
+}
+
+
+button:hover {
+    filter:brightness(96%)
+}
+button:active {
+    filter:brightness(86%)
+}

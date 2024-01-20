@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="display" readonly>
+        <div id="buttons">
+             <button id="BAC" class="topbuttons" onclick="clearDisplay()">AC</button>
+             <button id="BPM" disabled  class="topbuttons" onclick="changePN()">+/-</button>
+             <button id="B%" disabled class="topbuttons" onclick="appendDisplay('%')">%</button>
+             <button id="B/" disabled  class="operand" onclick="appendDisplay('/')">/</button>
+
+             <button class="numbers" id="B7" onclick="appendDisplay(7)">7</button>
+             <button class="numbers" id="B8" onclick="appendDisplay(8)">8</button>
+             <button class="numbers" id="B9" onclick="appendDisplay(9)">9</button>
+             <button id="BX" disabled   class="operand" onclick="appendDisplay('X')">X</button>
+
+             <button class="numbers" id="B4" onclick="appendDisplay(4)">4</button>
+             <button  class="numbers"id="B5" onclick="appendDisplay(5)">5</button>
+             <button class="numbers" id="B6" onclick="appendDisplay(6)">6</button>
+             <button id="B-" disabled   class="operand" onclick="appendDisplay('-')">-</button>
+
+             <button class="numbers" id="B1" onclick="appendDisplay(1)">1</button>
+             <button class="numbers" id="B2" onclick="appendDisplay(2)">2</button>
+             <button class="numbers" id="B3" onclick="appendDisplay(3)">3</button>
+             <button id="B+" class="operand" onclick="appendDisplay('+')">+</button>
+
+             <button id="B0"   class="numbers" onclick="appendDisplay(0)">0</button>
+             <button id="B,"  class="numbers" onclick="appendDisplay(',')">,</button>
+             <button id="B=" class="operand" onclick="calc()">=</button>
+        </div>
+    </div>
+
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>

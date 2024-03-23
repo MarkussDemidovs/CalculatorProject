@@ -1,5 +1,5 @@
 # HTML/CSS/JAVASCRIPT Calculator
-This is a MacOs inspired calculator made on html, css and javascript.
+A Calculator built on HTML/CSS/JS, inspired by the MacOS Built in Calculator.
 
 ## Help needed!
 Currently you can only do addition.
